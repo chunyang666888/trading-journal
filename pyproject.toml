@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trading-journal"
+version = "0.1.0"
+description = "Traditional trader journal & review toolkit: trade logging, performance stats (win rate / profit factor / expectancy), and mistake attribution."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Chunyang Gao" }]
+keywords = ["trading", "journal", "review", "performance", "discipline", "trader"]
+
+[tool.setuptools.packages.find]
+include = ["journal*"]
